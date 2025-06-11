@@ -14,7 +14,8 @@ def calculateHistogram(bgr_plnes):
     cv2.normalize(g_hist, g_hist, alpha=0, beta=360, norm_type=cv2.NORM_MINMAX)
     cv2.normalize(r_hist, r_hist, alpha=0, beta=360, norm_type=cv2.NORM_MINMAX)
 
-    return [b_hist, g_hist, r_hist]
+    # test for git bash setup
+    return [b_hist, g_hist, r_hist] 
 
 def drawHistogram(bgr_hist):
 
